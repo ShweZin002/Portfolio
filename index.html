@@ -45,8 +45,13 @@
         }
         
         @media (max-width:500px) {
-            #typing {
-                font-size: 15px;
+            @keyframes typing {
+                0% {
+                    width: 0;
+                }
+                50% {
+                    width: 70%;
+                }
             }
         }
     </style>
